@@ -1,10 +1,10 @@
 var cameraTracker;
 function setup() {
 	var videoInput = createCapture();
-	videoInput.size(400,300);
+	videoInput.size(800,800);
 	videoInput.position(0,0);
 
-	var canvas = createCanvas(400,300);
+	var canvas = createCanvas(800,800);
 	canvas.position(0,0);
 
 	cameraTracker = new clm.tracker();
